@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gesture-Recognizer-master", "Assembly-CSharp-firstpass.csproj", "{F0A24550-611F-527B-177F-198535FAE80E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gesture-Recognizer-master", "Assembly-CSharp.csproj", "{318EA7CE-8E93-DD62-F1D7-57E5815FD05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gesture-Recognizer-master", "Assembly-CSharp-Editor-firstpass.csproj", "{1B4AF643-ACA2-F0AE-7863-8F3974572FCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A24550-611F-527B-177F-198535FAE80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A24550-611F-527B-177F-198535FAE80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A24550-611F-527B-177F-198535FAE80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A24550-611F-527B-177F-198535FAE80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318EA7CE-8E93-DD62-F1D7-57E5815FD05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318EA7CE-8E93-DD62-F1D7-57E5815FD05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318EA7CE-8E93-DD62-F1D7-57E5815FD05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318EA7CE-8E93-DD62-F1D7-57E5815FD05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4AF643-ACA2-F0AE-7863-8F3974572FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4AF643-ACA2-F0AE-7863-8F3974572FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4AF643-ACA2-F0AE-7863-8F3974572FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4AF643-ACA2-F0AE-7863-8F3974572FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
