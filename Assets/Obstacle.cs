@@ -14,6 +14,11 @@ public class Obstacle : MonoBehaviour
 
         if (other.name.Contains("malcolm"))
         {
+            BodyProperties BP = GameObject.Find("skeleton").GetComponentInChildren<BodyProperties>();
+            if(BP != null)
+            {
+                BP.GD.accuracy = 0;
+            }
             scoring sc = GameObject.Find("Scoring").GetComponent<scoring>();
             sc.setGesture(2);
         }
