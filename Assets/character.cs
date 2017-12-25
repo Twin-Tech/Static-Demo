@@ -61,6 +61,78 @@ public class character : MonoBehaviour {
                     Anim.SetTrigger(IdleHash);
                 }
             }
+
+            // Edit for squats animation
+             else if (bp.GD.gestureName == "squats")
+            {
+                if (bp.GD.accuracy>75)
+                {
+                    transform.Translate(movement*2, Space.Self);
+                    Anim.ResetTrigger(MoveHash);
+                    Anim.ResetTrigger(IdleHash);
+                    Anim.SetTrigger(JumpHash);
+                }
+                else
+                {
+                    Anim.ResetTrigger(JumpHash);
+                    Anim.ResetTrigger(MoveHash);
+                    Anim.SetTrigger(IdleHash);
+                }
+            }
+
+            // Edit for jabs animation
+            else if (bp.GD.gestureName == "jabs")
+         {
+             if (bp.GD.accuracy>75)
+             {
+                 transform.Translate(movement*2, Space.Self);
+                 Anim.ResetTrigger(MoveHash);
+                 Anim.ResetTrigger(IdleHash);
+                 Anim.SetTrigger(JumpHash);
+             }
+             else
+             {
+                 Anim.ResetTrigger(JumpHash);
+                 Anim.ResetTrigger(MoveHash);
+                 Anim.SetTrigger(IdleHash);
+             }
+         }
+
+            // Edit for right lunges animation
+            else if (bp.GD.gestureName == "rightlunges")
+            {
+                if (bp.GD.accuracy > 75)
+                {
+                    transform.Translate(movement * 2, Space.Self);
+                    Anim.ResetTrigger(MoveHash);
+                    Anim.ResetTrigger(IdleHash);
+                    Anim.SetTrigger(JumpHash);
+                }
+                else
+                {
+                    Anim.ResetTrigger(JumpHash);
+                    Anim.ResetTrigger(MoveHash);
+                    Anim.SetTrigger(IdleHash);
+                }
+            }
+
+            // Edit for left lunges animation
+            else if (bp.GD.gestureName == "leftlunges")
+            {
+                if (bp.GD.accuracy > 75)
+                {
+                    transform.Translate(movement * 2, Space.Self);
+                    Anim.ResetTrigger(MoveHash);
+                    Anim.ResetTrigger(IdleHash);
+                    Anim.SetTrigger(JumpHash);
+                }
+                else
+                {
+                    Anim.ResetTrigger(JumpHash);
+                    Anim.ResetTrigger(MoveHash);
+                    Anim.SetTrigger(IdleHash);
+                }
+            }
             if (bp.rotation > 35 && frames > 60)
             {
                 if (bp.rotationDirection == "Right")
@@ -90,8 +162,8 @@ public class character : MonoBehaviour {
                         cc.offset.x = -cc.offset.x;
                         leftctr = 0;
                     }*/
-                }
-            }
+        }
+    }
         }
     }
 }
